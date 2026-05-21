@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Page title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Container for all articles */
+#articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each article card */
+.article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.article:hover {
+  transform: scale(1.01);
+}
+
+/* Article title */
+.article h2 {
+  margin-top: 0;
+  color: #1e88e5;
+}
+
+/* Section headers */
+.article h3 {
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+/* Paragraph text */
+.article p {
+  line-height: 1.6;
+}
+
+/* Lists */
+.article ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.article li {
+  margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .article {
+    padding: 15px;
+  }
+}
